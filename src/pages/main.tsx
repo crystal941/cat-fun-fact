@@ -25,7 +25,7 @@ export const Main = () => {
     <div>
       <Card sx={{ minWidth: 275 }}>
       <CardContent>
-      <img alt="A random cat photo" src={catPic?.message} />
+      <img alt="A random cat" src={catPic?.message} />
       <p>{catFact?.fact}</p>
 
 
