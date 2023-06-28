@@ -1,5 +1,5 @@
 import { useQuery } from '@tanstack/react-query';
-import { CircularProgress, Button, Card, CardActions, CardContent, CardHeader, IconButton } from '@mui/material';
+import { CircularProgress, Button, Card, CardActions, CardContent } from '@mui/material';
 import Axios from 'axios';
 
 
@@ -25,7 +25,7 @@ export const Main = () => {
     <div>
       <Card sx={{ minWidth: 275 }}>
       <CardContent>
-      <img src={catPic?.message} />
+      <img alt="A random cat photo" src={catPic?.message} />
       <p>{catFact?.fact}</p>
 
 
