@@ -17,7 +17,7 @@ This is a simple application that fetches a random cat picture and a fun fact re
 To get started with the Cat Pics App, follow these steps:
 
 1. Clone the repository:
-    ### `git clone https://github.com/your-username/cat-pics-app.git`
+    ### `git clone https://github.com/crystal941/cat-pics-app.git`
 
 2. Navigate to the project directory:
     ### `cd cat-pics-app`
